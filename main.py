@@ -25,9 +25,6 @@ async def rag_ingest_pdf(ctx: inngest.Context):
     return {
         "status": "success",
         "message": "hello world"
-            
-            
-            
             }
 
 app = FastAPI()
