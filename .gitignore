@@ -1,5 +1,6 @@
 __pycache__/
 *.py[cod]
+*.log
 
 # Virtual Environments
 venv/
@@ -15,6 +16,22 @@ env/
 
 # Jupyter Notebooks
 .ipynb_checkpoints
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# AI / ML / RAG Artifacts
+chroma_db/
+*.gguf
+*.bin
+*.pt
+*.pth
 
 # OS generated files
 .DS_Store
